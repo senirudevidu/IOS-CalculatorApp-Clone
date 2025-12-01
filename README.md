@@ -50,7 +50,7 @@ Follow these steps to run the project locally:
 2. Navigate to the project folder
 3. Simply open index.html in your browser.
 
-## Project Structure
+## screenShots
 ![Calculator Preview](assets/screenshots/calculator.png)
 
 
