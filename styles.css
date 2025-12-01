@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculator {
+  width: 402px;
+  height: 874;
+  background-color: #1c1c1c;
+  padding: 20px;
+  border-radius: 20px;
+  padding-bottom: 10px;
+  margin-top: 90px;
+}
+.button {
+  background-color: #505050;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: #3a3a3a;
+}
+
+.operation {
+  background-color: #ff9500;
+}
+
+.operation:active {
+  background-color: #cc7a00;
+}
+
+.spbutton {
+  background-color: #d4d4d2;
+  color: black;
+}
+
+.spbutton:active {
+  background-color: #a6a6a4;
+}
+.buttons-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.display-container {
+  margin-top: 160px;
+}
+#displayUp {
+  font-size: 1rem;
+  height: 20px;
+}
+
+.display {
+  width: 100%;
+  height: 100px;
+  background-color: #1c1c1c;
+  color: white;
+  font-size: 6rem;
+  text-align: right;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.dynamic-island {
+  width: 200px;
+  height: 50px;
+  background-color: #000;
+  border-radius: 25px;
+  margin: 0 auto 20px auto;
+}
+
+.homeSwipe {
+  width: 134px;
+  height: 5px;
+  background-color: #666666;
+  border-radius: 2.5px;
+  margin: 20px auto 0 auto;
+}
